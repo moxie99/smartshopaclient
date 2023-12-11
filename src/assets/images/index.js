@@ -6,3 +6,6 @@ export { default as logo } from './logo.png';
 export { default as language } from './language.png';
 export { default as user } from './user.png';
 export { default as order } from './order.jpg';
+export { default as stripe } from './stripe.png';
+export { default as paystack } from './paystack.png';
+export { default as tap } from './tap.jpeg';
