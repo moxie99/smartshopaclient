@@ -61,7 +61,7 @@ const Payment = () => {
                     >
                       <div className='flex flex-col gap-[3px] justify-center items-center'>
                         <img
-                          src='http://localhost:3000/roket.png'
+                          src='https://smartshopaclient.vercel.app/roket.png'
                           alt='roket'
                         />
                         <span className='text-slate-600'>Roket</span>

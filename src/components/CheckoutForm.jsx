@@ -21,11 +21,11 @@ const CheckoutForm = ({ orderId }) => {
         }
         setIsLoading(true)
         const { error } = await stripe.confirmPayment({
-            elements,
-            confirmParams: {
-                return_url: 'http://localhost:3000/order/confirm'
-            }
-        })
+          elements,
+          confirmParams: {
+            return_url: 'https://smartshopaclient.vercel.app/order/confirm',
+          },
+        });
         if (error.type === 'card_error' || error.type === 'validation_error') {
             setMessage(error.message)
         } else {

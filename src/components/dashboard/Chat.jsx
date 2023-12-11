@@ -10,7 +10,7 @@ import toast from 'react-hot-toast'
 import { user } from '../../assets/images'
 import { FaList } from 'react-icons/fa';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://smartshopabackend.onrender.com');
 
 const Chat = () => {
   const scrollRef = useRef();
